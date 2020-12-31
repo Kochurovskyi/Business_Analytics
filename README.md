@@ -1,7 +1,11 @@
 # Business_Analytics
  Analytics and Visualisation
 
-## Data Visualization with Tableau
+## Marketing campaign strategy
+## Promoting financial products to bank customers
+
+## Addons
+### Data Visualization with Tableau
 
 **Course 1. - Fundamentals of Visualization with Tableau**
 
@@ -12,7 +16,7 @@
 **Course 4. - Creating Dashboards and Storytelling with Tableau**
 
 
-## Advanced Business Analytics Specialization
+### Advanced Business Analytics Specialization
 
 **Course 1. - Introduction to Data Analytics for Business**
 
@@ -22,3 +26,4 @@
 
 **Course 4. - Communicating Business Analytics Results**
 
+### Power BI free practice
