@@ -1,8 +1,7 @@
 # Business_Analytics
- Analytics and Visualisation
+ Analytics and Visualisation Practice
 
-## Marketing campaign strategy
-## Promoting financial products to bank customers
+## Marketing campaign strategy. Promoting financial products to bank customers
 
 ## Addons
 ### Data Visualization with Tableau
