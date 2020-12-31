@@ -12,7 +12,7 @@
 **Course 4. - Creating Dashboards and Storytelling with Tableau**
 
 
-#Advanced Business Analytics Specialization
+## Advanced Business Analytics Specialization
 
 **Course 1. - Introduction to Data Analytics for Business**
 
