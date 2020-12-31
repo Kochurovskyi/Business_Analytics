@@ -4,7 +4,7 @@
 ## Marketing campaign strategy. Promoting financial products to bank customers
 
 ## Courses (Coursera)
-### Data Visualization with Tableau
+### Data Visualization with Tableau Specialization
 
 **Course 1. - Fundamentals of Visualization with Tableau**
 
