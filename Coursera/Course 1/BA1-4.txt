@@ -1,0 +1,18 @@
+Question 4-1:
+Identify any fields you think might be PII, CFI, CPNI, 
+or PHI as we defined in Module 4, Video 4
+
+Answer 4-1:
+In my business model I see no personal information or something related to private, 
+health or communication or property information, it’s only boring financial data. 
+So in this case it’s only CFI – Consumer Financial Information.
+____________________________
+
+Question 4-2:
+What data elements in your model will present the most significant data quality challenges? 
+Explain your reasoning.
+
+Answer 4-2:
+Most sensitive data in my model where mistakes can appear it’s quantities, 
+dates, and names (candy). It’s permanent flow data which should be entered by people.
+Most mistakes are made in the world by people, not computer calculations. 
