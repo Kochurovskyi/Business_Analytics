@@ -4,7 +4,8 @@
 ## Introduction
 
   The project contains some [graphics material]( https://github.com/Kochurovskyi/Business_Analytics/tree/main/Tableau) of data exploratory, descriptive and prescriptive analysis. For an easy access to the graphic materials this folder also contains another readme-file with all links to a relevant files of my [Tableau Public Profile]( https://public.tableau.com/profile/yukochu#!/)
-Another chapter of the project is [Jupiter (Python) Notebook]( https://github.com/Kochurovskyi/Business_Analytics/blob/main/MarketingCampaign_model.ipynb) with all predictive, prescriptive and cauterization model developed in python with all notes and explanations. 
+  
+  Another chapter of the project is [Jupiter (Python) Notebook]( https://github.com/Kochurovskyi/Business_Analytics/blob/main/MarketingCampaign_model.ipynb) with all predictive, prescriptive and cauterization model developed in python with all notes and explanations. 
 
 
 
