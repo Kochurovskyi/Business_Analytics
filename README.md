@@ -3,7 +3,7 @@
 
 ## Introduction
 
-  The project contains some graphics material of data exploratory, descriptive and prescriptive analysis, also in the project included Jupiter (Python) Notebook with all predictive, prescriptive and cauterization model developed in python with all notes and explanations. 
+  The project contains some [graphics material]( https://github.com/Kochurovskyi/Business_Analytics/tree/main/Power%20BI) of data exploratory, descriptive and prescriptive analysis, also in the project included [Jupiter (Python) Notebook]( https://github.com/Kochurovskyi/Business_Analytics/blob/main/MarketingCampaign_model.ipynb) with all predictive, prescriptive and cauterization model developed in python with all notes and explanations. 
   
   All conclusions and addition information you will find here in this readme-file.
   Besides the project itself in this folder included all practical exercises made by me running through the Coursera Data Visualization with Tableau and Advanced Business Analytics Specialization Specializations I have successfully finished before start this project. All details related to Coursera Specializations you can find in the end of the file.
