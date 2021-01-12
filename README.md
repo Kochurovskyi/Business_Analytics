@@ -4,7 +4,7 @@
 ## Introduction
 Business Analytics and Business Intelligent are one of the fastest growing sectors in Data Science and this project is my try to dive deeply into the practical problems from the real world using my ML and Visualization skills for a business purposes.   
  
-The project contains some [graphics material]( https://github.com/Kochurovskyi/Business_Analytics/tree/main/Tableau) of data exploratory, descriptive and prescriptive analysis. For an easy access to the graphic materials this folder also contains another readme-file with all links to a relevant files of my [Tableau Public Profile]( https://public.tableau.com/profile/yukochu#!/)
+The project contains some [graphics materials]( https://github.com/Kochurovskyi/Business_Analytics/tree/main/Tableau) of data exploratory, descriptive and prescriptive analysis. For an easy access this folder also contains another readme-file with all links to a relevant files of my [Tableau Public Profile]( https://public.tableau.com/profile/yukochu#!/).
 
 Another important part  of the project is [Jupiter (Python) Notebook]( https://github.com/Kochurovskyi/Business_Analytics/blob/main/MarketingCampaign_model.ipynb) with all predictive, prescriptive and clusterization models developed in python with all notes and explanations. 
   
@@ -26,6 +26,15 @@ How will a customer be contacted? There are different ways, with different costs
 How can they optimally use their limited budget?
 Will such campaigns be profitable?
 
+
+## Content
+1.	Data overview
+2.	Exploratory Analysis 
+3.	Predictive model
+4.	Proscriptive model
+5.	Clusterization model
+6.	Modeling results overview
+7.	Conclusions
 
 ## Courses (Coursera)
 ### Data Visualization with Tableau Specialization
