@@ -1,5 +1,8 @@
 # Business Analytics
  Analytics and Visualization Practice
+ 
+ <img src="https://github.com/Kochurovskyi/Business_Analytics/blob/main/Misc/businessman-and-virtual-business-intelligence-icons.jpg" alt="drawing" width="1000"/>
+
 
 ## Introduction
 Business Analytics and Business Intelligent are one of the fastest growing sectors in Data Science and this project is my try to dive deeply into the practical problems from the real world using my ML and Visualization skills for a business purposes.   
