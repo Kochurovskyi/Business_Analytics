@@ -1,12 +1,15 @@
 # Business Analytics
- Analytics and Visualisation Practice
+ Analytics and Visualization Practice
 
 ## Introduction
+Business Analytics and Business Intelligent are one of the fastest growing sectors in Data Science and this project is my try to dive deeply into the practical problems from the real world using my ML and Visualization skills for a business purposes.   
+ 
+The project contains some [graphics material]( https://github.com/Kochurovskyi/Business_Analytics/tree/main/Tableau) of data exploratory, descriptive and prescriptive analysis. For an easy access to the graphic materials this folder also contains another readme-file with all links to a relevant files of my [Tableau Public Profile]( https://public.tableau.com/profile/yukochu#!/)
 
-  The project contains some [graphics material]( https://github.com/Kochurovskyi/Business_Analytics/tree/main/Tableau) of data exploratory, descriptive and prescriptive analysis. For an easy access to the graphic materials this folder also contains another readme-file with all links to a relevant files of my [Tableau Public Profile]( https://public.tableau.com/profile/yukochu#!/)
+Another important part  of the project is [Jupiter (Python) Notebook]( https://github.com/Kochurovskyi/Business_Analytics/blob/main/MarketingCampaign_model.ipynb) with all predictive, prescriptive and clusterization models developed in python with all notes and explanations. 
   
-  Another chapter of the project is [Jupiter (Python) Notebook]( https://github.com/Kochurovskyi/Business_Analytics/blob/main/MarketingCampaign_model.ipynb) with all predictive, prescriptive and cauterization model developed in python with all notes and explanations. 
-
+  All conclusions and addition information you will find here in this readme-file.
+  Besides the project itself in this folder included all practical exercises made by me running through the Coursera Data Visualization with Tableau and Advanced Business Analytics Specialization Specializations I have successfully finished before start this project. All details related to Coursera Specializations you can find in the end of the file.
 
 
 ## Marketing campaign strategy. Promoting financial products to bank customers
