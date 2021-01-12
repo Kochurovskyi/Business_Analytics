@@ -14,6 +14,8 @@ Another important part  of the project is [Jupiter (Python) Notebook]( https://g
 
 ## Marketing campaign strategy. Promoting financial products to bank customers
 
+<img src="https://github.com/Kochurovskyi/Business_Analytics/blob/main/Misc/image-asset.jpeg" alt="drawing" width="1000"/>
+
 In previous 4 years, a retail bank sold several products (mortgage account, savings account, and pension account) to its customers. It kept records of all historical data, and this data is available for analysis and reuse. Following a merger in 2021, the bank has new customers and wants to launch some marketing campaigns.
 
 The budget for the campaigns is limited. The bank wants to contact a customer and propose only one product.
