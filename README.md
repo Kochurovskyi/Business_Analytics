@@ -36,7 +36,7 @@ How can they optimally use their limited budget?
 Will such campaigns be profitable?
 
 ## Content
-1.	[Data overview](# Data-overview)
+1.	[Data overview](#Data-overview)
 2.	Exploratory Analysis 
 3.	Predictive model
 4.	Proscriptive model
