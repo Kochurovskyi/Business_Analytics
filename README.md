@@ -86,6 +86,8 @@ You can see that:
 
 In conclusion I can say that Age, Income Rate and amount of Loan Accounts are the most important factors for decision making. For example if customer’s Age is more than 55 it’s more likely he will not buy the Savings product, but will consider to buy a pension. And if customer has a lot Loan Accounts he will think about Mortgage product.
 
+Detailed visualistion you can find in [Tableau file](https://github.com/Kochurovskyi/Business_Analytics/blob/main/Tableau/Pet_Prj(3)%20%E2%80%93%20Storry_1(pre-model)%20.twb)
+
 
 ## Predictive model
 
@@ -162,7 +164,12 @@ When truncated SVD is applied to term-document matrices (as returned by CountVec
 
 In particular, LSA is known to combat the effects of synonymy and polysemy (both of which roughly mean there are multiple meanings per word), which cause term-document matrices to be overly sparse and exhibit poor similarity under measures such as cosine similarity.
 
+
 After a couple of experiments I decided to take 4 clusters as the most optimal.
+
+And now my marketing department can split all offers according to the clusters, here is some distributions of most critical customer characteristics like Age or Income taking to account the clusters.  
+
+<img src=" https://github.com/Kochurovskyi/Business_Analytics/blob/main/Misc/model2.png" width="1000"/>
 
 ## Conclusions
 
