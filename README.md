@@ -106,6 +106,44 @@ It might be hard to compute this. In order to check, you will use greedy optimiz
 
 ## Proscriptive model
 
+Now I have a prediction of who will buy what in the list of new customers. However, I do not have the budget to contact all of them and I have various contact channels with different costs and effectiveness. Furthermore, if I contact a customer I want to propose only one product per customer.
+
+I used a custom algorithm that ensures 30% of offers are made per channel by choosing the most promising per channel. The algorithm then continues to add offers until the budget is reached.
+
+Base on predicted date I’m going to implement Greedy algorithm, which allows me to distribute marketing channels (Gifts, Newsletter, Seminar) equally and most effective within the budget limit and taking in account that:
+
+Each product gives revenue:
+
+•	Mortgage - 200
+
+•	Pension - 300
+
+•	Savings - 400
+
+Each channel (marketing action) costs with following success factor:
+
+•	gift - 20 / 0.20
+
+•	newslette - 15, / 0.05
+
+•	seminar - 23.0 / 0.30
+
+
+For a greedy algorithm I will use most effective marketing channels firstly and move forward to less effective in ours case I will all all Seminars with the highest success factor and implement it to Savings product with the highest revenue (400) and finish with gifts implemented to Mortgage. Then I will iterate till the budget’s finished. This is how it works.
+
+And in the end I will have such results for different limits of budget like in the example bellow (for $20000):
+•	Budget limit: 20000
+
+•	Total offers:546
+
+•	Number of Mortgage offers:273, Number of Pension offers:273, Number of Savings offers:367
+
+•	Campaign cost: 18031.0
+
+
+•	Revenue: 63220.0
+
+
 ## Clusterization model
 
 ## Conclusions
