@@ -218,6 +218,7 @@ A lot of Visualizations where used to make entire picture more clear, to let com
 
 **Course 4. - Communicating Business Analytics Results**
 
+You can overview all my practical exercises related to courses in my [Tableau Public Profile]( https://public.tableau.com/profile/yukochu#!/)
 
 <img src="https://github.com/Kochurovskyi/Business_Analytics/blob/main/Coursera/TB_cert.png" alt="drawing" width="1000"/>
 
