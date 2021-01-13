@@ -60,7 +60,7 @@ The difference is that [known_behaviors]( https://github.com/Kochurovskyi/Busine
 These file contain data related to each customer of the bunk. It has some personal information like Age, Income, working or non-working information and others and historical data of customer relation with bank like Months contract, Debt to Equity Ratio, Loan Accounts, Number of Purchased Products. It has everything to analyze and predict the customer’s behaviors in the future.
 
 In order to find any data problems preliminary data analysis was carried out. All data was checked for missing cells, gaps in time series, outliers, data format correctness and a couple [Tableau visualizations]( https://github.com/Kochurovskyi/Business_Analytics/blob/main/Tableau/Pet_Prj(1)%20%E2%80%93%20PreExploratory(Hist)%20.twb) were implemented to each data column. 
-<img src=" https://github.com/Kochurovskyi/Business_Analytics/blob/main/Misc/Pre_view.png" alt="drawing" width="1000"/>
+<img src="https://github.com/Kochurovskyi/Business_Analytics/blob/main/Misc/Pre_view.png" alt="drawing" width="1000"/>
 
 In fact, no critical problems were detected and all data was OK.
 
