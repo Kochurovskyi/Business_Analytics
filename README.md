@@ -46,6 +46,20 @@ Will such campaigns be profitable?
 
 ## Data overview
 All data is stored in the [Datasets folder]( https://github.com/Kochurovskyi/Business_Analytics/tree/main/Datasets) including input datasets and resulting tables
+There is two main files for my research and marketing campaign planning:
+
+•	known_behaviors
+
+•	unknown_behaviors
+
+
+
+<img src="https://github.com/Kochurovskyi/Business_Analytics/blob/main/Misc/Known.png" alt="drawing" width="1000"/>
+
+The difference is that [known_behaviors]( https://github.com/Kochurovskyi/Business_Analytics/blob/main/Datasets/known_behaviors_1.xlsx) has columns “Mortgage, Pension, Savings” but [known_behaviors]( https://github.com/Kochurovskyi/Business_Analytics/blob/main/Datasets/unknown_behaviors_0.csv) doesn’t have it – we need to predict it.
+
+
+
 
 ## Courses (Coursera)
 ### Data Visualization with Tableau Specialization
