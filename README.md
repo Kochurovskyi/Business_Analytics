@@ -57,6 +57,7 @@ There is two main files for my research and marketing campaign planning:
 <img src="https://github.com/Kochurovskyi/Business_Analytics/blob/main/Misc/Known.png" alt="drawing" width="1000"/>
 
 The difference is that [known_behaviors]( https://github.com/Kochurovskyi/Business_Analytics/blob/main/Datasets/known_behaviors_1.xlsx) has columns “Mortgage, Pension, Savings”, but [unknown_behaviors]( https://github.com/Kochurovskyi/Business_Analytics/blob/main/Datasets/unknown_behaviors_0.csv) doesn’t have it – we need to predict it.
+
 These file contain data related to each customer of the bunk. It has some personal information like Age, Income, working or non-working information and others and historical data of customer relation with bank like Months contract, Debt to Equity Ratio, Loan Accounts, Number of Purchased Products. It has everything to analyze and predict the customer’s behaviors in the future.
 
 In order to find any data problems preliminary data analysis was carried out. All data was checked for missing cells, gaps in time series, outliers, data format correctness and a couple [Tableau visualizations]( https://github.com/Kochurovskyi/Business_Analytics/blob/main/Tableau/Pet_Prj(1)%20%E2%80%93%20PreExploratory(Hist)%20.twb) were implemented to each data column. 
@@ -72,15 +73,96 @@ The main purpose of this analysis was to find most important patterns which make
 
 <img src="https://github.com/Kochurovskyi/Business_Analytics/blob/main/Misc/exp1.png" alt="drawing" width="1000"/>
 
+You can see that:
+
+•	The greater a customer's income, the more likely it is he or she will buy a savings account.
+
+•	The older a customer is, the more likely it is he or she will buy a pension account.
+
+•	There is a correlation between the number of people in a customer's household, the number of loan accounts held by the customer, and the likelihood a customer buys a mortgage account. To see the correlation, look at the upper right and lower left corners of the mortgage chart.
+
+
 <img src="https://github.com/Kochurovskyi/Business_Analytics/blob/main/Misc/exp2.png" alt="drawing" width="1000"/>
 
 In conclusion I can say that Age, Income Rate and amount of Loan Accounts are the most important factors for decision making. For example if customer’s Age is more than 55 it’s more likely he will not buy the Savings product, but will consider to buy a pension. And if customer has a lot Loan Accounts he will think about Mortgage product.
 
+
 ## Predictive model
+
+Predictive analytics is the use of data, statistical algorithms and in our case machine learning techniques to identify the likelihood of future outcomes based on historical data. The goal is to go beyond knowing what has happened to providing a best assessment of what will happen in the future.
+
+As a result using one of the most effective XGBoosting algorithm for binary classification I found predicted values of mortgage, savings and pension columns for the file [unknown_behaviors](https://github.com/Kochurovskyi/Business_Analytics/blob/main/Datasets/unknown_behaviors_0.csv) and now I have clear picture who can be interested among the customers to be contacted with offers.
+
+It’s clear that predicted data has the same semantic as the base data, with even more clear frontiers:
+
+
+•	for savings, there is a clear frontier at $50K revenue.
+
+•	for pension, there is a clear frontier at 55 years old customers.
+
+<img src="https://github.com/Kochurovskyi/Business_Analytics/blob/main/Misc/model1.png " width="1000"/>
+
+Detailed visualistion you can find in [Tableau file](https://public.tableau.com/profile/yukochu#!/vizhome/Pet_Prj4Storry_2modeling/Modeling)
+
+The goal was to contact the customers to sell them only one product, so you cannot select all of them. This increases the complexity of the problem: you need to determine the best contact channel, but also need to select which product will be sold to a given customer.
+It might be hard to compute this. In order to check, you will use greedy optimization algorithm
 
 ## Proscriptive model
 
+Now I have a prediction of who will buy what in the list of new customers. However, I do not have the budget to contact all of them and I have various contact channels with different costs and effectiveness. Furthermore, if I contact a customer I want to propose only one product per customer.
+
+I used a custom algorithm that ensures 30% of offers are made per channel by choosing the most promising per channel. The algorithm then continues to add offers until the budget is reached.
+
+Base on predicted date I’m going to implement Greedy algorithm, which allows me to distribute marketing channels (Gifts, Newsletter, Seminar) equally and most effective within the budget limit and taking in account that:
+
+Each product gives revenue:
+
+•	Mortgage - 200
+
+•	Pension - 300
+
+•	Savings - 400
+
+Each channel (marketing action) costs with following success factor:
+
+•	gift - 20 / 0.20
+
+•	newslette - 15, / 0.05
+
+•	seminar - 23.0 / 0.30
+
+
+For a greedy algorithm I will use most effective marketing channels firstly and move forward to less effective in ours case I will all all Seminars with the highest success factor and implement it to Savings product with the highest revenue (400) and finish with gifts implemented to Mortgage. Then I will iterate till the budget’s finished. This is how it works.
+
+And in the end I will have such results for different limits of budget like in the example bellow (for $20000):
+
+•	Budget limit: 20000
+
+•	Total offers:546
+
+•	Number of Mortgage offers:273, Number of Pension offers:273, Number of Savings offers:367
+
+•	Campaign cost: 18031.0
+
+
+•	Revenue: 63220.0
+
+
 ## Clusterization model
+
+Clusterization is an unsupervised clustering / topic extraction. We have no previous knowledge on the number of topics there are in every corpus of documents.
+
+A conventional approach involves an -optional- initial step of LSA (Latent Semantic Analysis) (TruncatedSVD) for dimensionalty reduction followed by K-Means. The downside to this approach in this scenario is that it requires a predefined number of clusters, which is not available
+
+If a good candidate for k is found K-Means can be re-run using it as input. In addition, several K-Means runs are advised since the algorithm might end up in a local optima.
+
+SVD/LSA TruncatedSVD implements a variant of singular value decomposition (SVD) that only computes the k largest singular values, where k is a user-specified parameter.
+
+When truncated SVD is applied to term-document matrices (as returned by CountVectorizer or TfidfVectorizer), this transformation is known as latent semantic analysis (LSA), because it transforms such matrices to a “semantic” space of low dimensionality.
+
+In particular, LSA is known to combat the effects of synonymy and polysemy (both of which roughly mean there are multiple meanings per word), which cause term-document matrices to be overly sparse and exhibit poor similarity under measures such as cosine similarity.
+
+After a couple of experiments I decided to take 4 clusters as the most optimal.
 
 ## Conclusions
 
