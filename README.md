@@ -194,7 +194,7 @@ A lot of Visualizations where used to make entire picture more clear, to let com
 
 ## Coursera details and certificates
 
-### Data Visualization with Tableau Specialization
+### Data Visualization with Tableau Specialization (around 100 hours)
 
 **Course 1. - Fundamentals of Visualization with Tableau**
 
@@ -208,7 +208,7 @@ A lot of Visualizations where used to make entire picture more clear, to let com
 
 
 
-### Advanced Business Analytics Specialization
+### Advanced Business Analytics Specialization (around 80 hours)
 
 **Course 1. - Introduction to Data Analytics for Business**
 
