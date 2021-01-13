@@ -74,6 +74,7 @@ The main purpose of this analysis was to find most important patterns which make
 
 <img src="https://github.com/Kochurovskyi/Business_Analytics/blob/main/Misc/exp2.png" alt="drawing" width="1000"/>
 
+In conclusion I can say that Age, Income Rate and amount of Loan Accounts are the most important factors for decision making. For example if customer’s Age is more than 55 it’s more likely he will not buy the Savings product, but will consider to buy a pension. And if customer has a lot Loan Accounts he will think about Mortgage product.
 
 ## Predictive model
 
