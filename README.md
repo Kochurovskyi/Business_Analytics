@@ -57,6 +57,7 @@ There is two main files for my research and marketing campaign planning:
 <img src="https://github.com/Kochurovskyi/Business_Analytics/blob/main/Misc/Known.png" alt="drawing" width="1000"/>
 
 The difference is that [known_behaviors]( https://github.com/Kochurovskyi/Business_Analytics/blob/main/Datasets/known_behaviors_1.xlsx) has columns “Mortgage, Pension, Savings”, but [unknown_behaviors]( https://github.com/Kochurovskyi/Business_Analytics/blob/main/Datasets/unknown_behaviors_0.csv) doesn’t have it – we need to predict it.
+
 These file contain data related to each customer of the bunk. It has some personal information like Age, Income, working or non-working information and others and historical data of customer relation with bank like Months contract, Debt to Equity Ratio, Loan Accounts, Number of Purchased Products. It has everything to analyze and predict the customer’s behaviors in the future.
 
 In order to find any data problems preliminary data analysis was carried out. All data was checked for missing cells, gaps in time series, outliers, data format correctness and a couple [Tableau visualizations]( https://github.com/Kochurovskyi/Business_Analytics/blob/main/Tableau/Pet_Prj(1)%20%E2%80%93%20PreExploratory(Hist)%20.twb) were implemented to each data column. 
@@ -77,6 +78,20 @@ The main purpose of this analysis was to find most important patterns which make
 In conclusion I can say that Age, Income Rate and amount of Loan Accounts are the most important factors for decision making. For example if customer’s Age is more than 55 it’s more likely he will not buy the Savings product, but will consider to buy a pension. And if customer has a lot Loan Accounts he will think about Mortgage product.
 
 ## Predictive model
+
+Predictive analytics is the use of data, statistical algorithms and in our case machine learning techniques to identify the likelihood of future outcomes based on historical data. The goal is to go beyond knowing what has happened to providing a best assessment of what will happen in the future.
+
+As a result using one of the most effective XGBoosting algorithm for binary classification I found predicted values of mortgage, savings and pension columns for the file [unknown_behaviors](https://github.com/Kochurovskyi/Business_Analytics/blob/main/Datasets/unknown_behaviors_0.csv) and now I have clear picture who can be interested among the customers to be contacted with offers.
+
+It’s clear that predicted data has the same semantic as the base data, with even more clear frontiers:
+
+•	for savings, there is a clear frontier at $50K revenue.
+•	for pension, there is a clear frontier at 55 years old customers.
+
+<img src=" https://github.com/Kochurovskyi/Business_Analytics/blob/main/Misc/model1.png " width="1000"/>
+
+The goal was to contact the customers to sell them only one product, so you cannot select all of them. This increases the complexity of the problem: you need to determine the best contact channel, but also need to select which product will be sold to a given customer.
+It might be hard to compute this. In order to check, you will use greedy optimization algorithm
 
 ## Proscriptive model
 
