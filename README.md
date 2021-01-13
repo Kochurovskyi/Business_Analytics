@@ -86,6 +86,9 @@ You can see that:
 
 In conclusion I can say that Age, Income Rate and amount of Loan Accounts are the most important factors for decision making. For example if customer’s Age is more than 55 it’s more likely he will not buy the Savings product, but will consider to buy a pension. And if customer has a lot Loan Accounts he will think about Mortgage product.
 
+Detailed visualistion you can find in [Tableau file]( https://github.com/Kochurovskyi/Business_Analytics/blob/main/Tableau/Pet_Prj(3)%20%E2%80%93%20Storry_1(pre-model)%20.twb)
+
+
 ## Predictive model
 
 Predictive analytics is the use of data, statistical algorithms and in our case machine learning techniques to identify the likelihood of future outcomes based on historical data. The goal is to go beyond knowing what has happened to providing a best assessment of what will happen in the future.
@@ -100,6 +103,7 @@ It’s clear that predicted data has the same semantic as the base data, with ev
 •	for pension, there is a clear frontier at 55 years old customers.
 
 <img src="https://github.com/Kochurovskyi/Business_Analytics/blob/main/Misc/model1.png " width="1000"/>
+Detailed visualistion you can find in [Tableau file]( https://public.tableau.com/profile/yukochu#!/vizhome/Pet_Prj4Storry_2modeling/Modeling)
 
 The goal was to contact the customers to sell them only one product, so you cannot select all of them. This increases the complexity of the problem: you need to determine the best contact channel, but also need to select which product will be sold to a given customer.
 It might be hard to compute this. In order to check, you will use greedy optimization algorithm
@@ -141,10 +145,25 @@ And in the end I will have such results for different limits of budget like in t
 
 •	Campaign cost: 18031.0
 
+
 •	Revenue: 63220.0
 
 
 ## Clusterization model
+
+Clusterization is an unsupervised clustering / topic extraction. We have no previous knowledge on the number of topics there are in every corpus of documents.
+
+A conventional approach involves an -optional- initial step of LSA (Latent Semantic Analysis) (TruncatedSVD) for dimensionalty reduction followed by K-Means. The downside to this approach in this scenario is that it requires a predefined number of clusters, which is not available
+
+If a good candidate for k is found K-Means can be re-run using it as input. In addition, several K-Means runs are advised since the algorithm might end up in a local optima.
+
+SVD/LSA TruncatedSVD implements a variant of singular value decomposition (SVD) that only computes the k largest singular values, where k is a user-specified parameter.
+
+When truncated SVD is applied to term-document matrices (as returned by CountVectorizer or TfidfVectorizer), this transformation is known as latent semantic analysis (LSA), because it transforms such matrices to a “semantic” space of low dimensionality.
+
+In particular, LSA is known to combat the effects of synonymy and polysemy (both of which roughly mean there are multiple meanings per word), which cause term-document matrices to be overly sparse and exhibit poor similarity under measures such as cosine similarity.
+
+After a couple of experiments I decided to take 4 clusters as the most optimal.
 
 ## Conclusions
 
