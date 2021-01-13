@@ -132,6 +132,7 @@ Each channel (marketing action) costs with following success factor:
 For a greedy algorithm I will use most effective marketing channels firstly and move forward to less effective in ours case I will all all Seminars with the highest success factor and implement it to Savings product with the highest revenue (400) and finish with gifts implemented to Mortgage. Then I will iterate till the budget’s finished. This is how it works.
 
 And in the end I will have such results for different limits of budget like in the example bellow (for $20000):
+
 •	Budget limit: 20000
 
 •	Total offers:546
@@ -139,7 +140,6 @@ And in the end I will have such results for different limits of budget like in t
 •	Number of Mortgage offers:273, Number of Pension offers:273, Number of Savings offers:367
 
 •	Campaign cost: 18031.0
-
 
 •	Revenue: 63220.0
 
