@@ -86,8 +86,6 @@ You can see that:
 
 In conclusion I can say that Age, Income Rate and amount of Loan Accounts are the most important factors for decision making. For example if customer’s Age is more than 55 it’s more likely he will not buy the Savings product, but will consider to buy a pension. And if customer has a lot Loan Accounts he will think about Mortgage product.
 
-Detailed visualistion you can find in [Tableau file]( https://github.com/Kochurovskyi/Business_Analytics/blob/main/Tableau/Pet_Prj(3)%20%E2%80%93%20Storry_1(pre-model)%20.twb)
-
 
 ## Predictive model
 
@@ -103,7 +101,8 @@ It’s clear that predicted data has the same semantic as the base data, with ev
 •	for pension, there is a clear frontier at 55 years old customers.
 
 <img src="https://github.com/Kochurovskyi/Business_Analytics/blob/main/Misc/model1.png " width="1000"/>
-Detailed visualistion you can find in [Tableau file]( https://public.tableau.com/profile/yukochu#!/vizhome/Pet_Prj4Storry_2modeling/Modeling)
+
+Detailed visualistion you can find in [Tableau file](https://public.tableau.com/profile/yukochu#!/vizhome/Pet_Prj4Storry_2modeling/Modeling)
 
 The goal was to contact the customers to sell them only one product, so you cannot select all of them. This increases the complexity of the problem: you need to determine the best contact channel, but also need to select which product will be sold to a given customer.
 It might be hard to compute this. In order to check, you will use greedy optimization algorithm
