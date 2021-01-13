@@ -66,6 +66,14 @@ In fact, no critical problems were detected and all data was OK.
 
 
 ## Exploratory Analysis
+Exploratory Data Analysis refers to the critical process of performing  investigations on data so as to discover patterns, to test hypothesis and to check assumptions with the help of summary statistics and graphical representations.
+
+The main purpose of this analysis was to find most important patterns which make customers to buy one of the products. I prepared a range of visualizations and in the [Tableau Story]( https://public.tableau.com/profile/yukochu#!/vizhome/Pet_Prj3Story_1pre-model/Exploratorystory) I represented the most important findings.    
+
+<img src="https://github.com/Kochurovskyi/Business_Analytics/blob/main/Misc/exp1.png" alt="drawing" width="1000"/>
+
+<img src="https://github.com/Kochurovskyi/Business_Analytics/blob/main/Misc/exp2.png" alt="drawing" width="1000"/>
+
 
 ## Predictive model
 
