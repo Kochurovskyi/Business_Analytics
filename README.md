@@ -189,6 +189,8 @@ In general all project goals were reached:
 6. And finally Clusterization. All my customers which likely to be interested in the new offers are separated into 4 clusters what allows to marketing department to work more effective.
 
 
+A lot of Visualizations where used to make entire picture more clear, to let complicated models look simple. Sure it helps to simplify the job to decision makers. 
+
 
 ## Coursera details and certificates
 
