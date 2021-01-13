@@ -37,12 +37,12 @@ Will such campaigns be profitable?
 
 ## Content
 1.	[Data overview](#Data-overview)
-2.	Exploratory Analysis 
-3.	Predictive model
-4.	Proscriptive model
-5.	Clusterization model
-6.	Modeling results overview
-7.	Conclusions
+2.	[Exploratory Analysis](#Exploratory-Analysis)
+3.	[Predictive model](#Predictive-model)
+4.	[Proscriptive model](#Proscriptive-model)
+5.	[Clusterization model](#Clusterization-model)
+6.	[Conclusions](#Conclusions)
+6. 	[Coursera details and certificates](#Coursera-details-and-certificates)
 
 ## Data overview
 All data is stored in the [Datasets folder]( https://github.com/Kochurovskyi/Business_Analytics/tree/main/Datasets) including input datasets and resulting tables
@@ -56,12 +56,23 @@ There is two main files for my research and marketing campaign planning:
 
 <img src="https://github.com/Kochurovskyi/Business_Analytics/blob/main/Misc/Known.png" alt="drawing" width="1000"/>
 
-The difference is that [known_behaviors]( https://github.com/Kochurovskyi/Business_Analytics/blob/main/Datasets/known_behaviors_1.xlsx) has columns “Mortgage, Pension, Savings” but [known_behaviors]( https://github.com/Kochurovskyi/Business_Analytics/blob/main/Datasets/unknown_behaviors_0.csv) doesn’t have it – we need to predict it.
+The difference is that [known_behaviors]( https://github.com/Kochurovskyi/Business_Analytics/blob/main/Datasets/known_behaviors_1.xlsx) has columns “Mortgage, Pension, Savings”, but [unknown_behaviors]( https://github.com/Kochurovskyi/Business_Analytics/blob/main/Datasets/unknown_behaviors_0.csv) doesn’t have it – we need to predict it.
+These file contain data related to each customer of the bunk. It has some personal information like Age, Income, working or non-working information and others and historical data of customer relation with bank like Months contract, Debt to Equity Ratio, Loan Accounts, Number of Purchased Products. It has everything to analyze and predict the customer’s behaviors in the future.
+
+## Exploratory Analysis
+
+## Predictive model
+
+## Proscriptive model
+
+## Clusterization model
+
+## Conclusions
 
 
 
+## Coursera details and certificates
 
-## Courses (Coursera)
 ### Data Visualization with Tableau Specialization
 
 **Course 1. - Fundamentals of Visualization with Tableau**
@@ -83,4 +94,6 @@ The difference is that [known_behaviors]( https://github.com/Kochurovskyi/Busine
 
 **Course 4. - Communicating Business Analytics Results**
 
-### Power BI free practice
+
+<img src="https://github.com/Kochurovskyi/Business_Analytics/blob/main/Coursera/TB_cert.png" alt="drawing" width="1000"/>
+
