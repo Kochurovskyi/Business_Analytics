@@ -73,6 +73,15 @@ The main purpose of this analysis was to find most important patterns which make
 
 <img src="https://github.com/Kochurovskyi/Business_Analytics/blob/main/Misc/exp1.png" alt="drawing" width="1000"/>
 
+You can see that:
+
+•	The greater a customer's income, the more likely it is he or she will buy a savings account.
+
+•	The older a customer is, the more likely it is he or she will buy a pension account.
+
+•	There is a correlation between the number of people in a customer's household, the number of loan accounts held by the customer, and the likelihood a customer buys a mortgage account. To see the correlation, look at the upper right and lower left corners of the mortgage chart.
+
+
 <img src="https://github.com/Kochurovskyi/Business_Analytics/blob/main/Misc/exp2.png" alt="drawing" width="1000"/>
 
 In conclusion I can say that Age, Income Rate and amount of Loan Accounts are the most important factors for decision making. For example if customer’s Age is more than 55 it’s more likely he will not buy the Savings product, but will consider to buy a pension. And if customer has a lot Loan Accounts he will think about Mortgage product.
@@ -85,10 +94,12 @@ As a result using one of the most effective XGBoosting algorithm for binary clas
 
 It’s clear that predicted data has the same semantic as the base data, with even more clear frontiers:
 
+
 •	for savings, there is a clear frontier at $50K revenue.
+
 •	for pension, there is a clear frontier at 55 years old customers.
 
-<img src=" https://github.com/Kochurovskyi/Business_Analytics/blob/main/Misc/model1.png " width="1000"/>
+<img src="https://github.com/Kochurovskyi/Business_Analytics/blob/main/Misc/model1.png " width="1000"/>
 
 The goal was to contact the customers to sell them only one product, so you cannot select all of them. This increases the complexity of the problem: you need to determine the best contact channel, but also need to select which product will be sold to a given customer.
 It might be hard to compute this. In order to check, you will use greedy optimization algorithm
