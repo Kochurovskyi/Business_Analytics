@@ -173,6 +173,21 @@ And now my marketing department can split all offers according to the clusters, 
 
 ## Conclusions
 
+In general all project goals were reached:
+•	1. I analyzed the data and prepared it for modeling
+
+•	2. Preliminary some research was carried out to find patterns and relations between the customer’s characteristics 
+
+•	3. Predicted model provided me a list of customers who could be interested in a new offer and what kind of offer it should be
+
+•	4.  Prescriptive model gave some direction and advises in which way I should contact assigned customer and which offer should be proposed.  
+
+•	5. As a result of prescriptive analysis I have a various range of budget limits what will allow to be flexible in decision making.
+
+•	6. And finally Clusterization. All my customers which likely to be interested in the new offers are separated into 4 clusters what allows to marketing department to work more effective.
+
+
+A lot of Visualizations where used to make entire picture more clear, to let complicated models look simple. Sure it helps to simplify the job to decision makers. 
 
 
 ## Coursera details and certificates
