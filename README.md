@@ -169,7 +169,7 @@ After a couple of experiments I decided to take 4 clusters as the most optimal.
 
 And now my marketing department can split all offers according to the clusters, here is some distributions of most critical customer characteristics like Age or Income taking to account the clusters.  
 
-<img src=" https://github.com/Kochurovskyi/Business_Analytics/blob/main/Misc/model2.png" width="1000"/>
+<img src="https://github.com/Kochurovskyi/Business_Analytics/blob/main/Misc/model2.png" width="1000"/>
 
 ## Conclusions
 
