@@ -136,7 +136,7 @@ Each channel (marketing action) costs with following success factor:
 •	seminar - 23.0 / 0.30
 
 
-For a greedy algorithm I will use most effective marketing channels firstly and move forward to less effective in ours case I will all all Seminars with the highest success factor and implement it to Savings product with the highest revenue (400) and finish with gifts implemented to Mortgage. Then I will iterate till the budget’s finished. This is how it works.
+For a greedy algorithm I will use most effective marketing channels firstly and move forward to less effective in our case I will all all Seminars with the highest success factor and implement it to Savings product with the highest revenue (400) and finish with gifts implemented to Mortgage. Then I will iterate till the budget’s finished. This is how it works.
 
 And in the end I will have such results for different limits of budget like in the example bellow (for $20000):
 
