@@ -21,6 +21,10 @@ Another important part  of the project is [Jupyter (Python) Notebook]( https://g
 
 In previous 4 years, a retail bank sold several products (mortgage account, savings account, and pension account) to it's customers. It kept records of all historical data, and this data is available for analysis and reuse. Following a merger in 2021, the bank has new customers and wants to launch some marketing campaigns.
 
+Standard business process for Deposit opening in the bank is described very well in the BPNM diagram bellow:
+
+<img src="https://github.com/Kochurovskyi/Business_Analytics/blob/main/Misc/1_BPNM.png" alt="drawing" width="1000"/>
+
 The budget for the campaigns is limited. The bank wants to contact a customer and propose only one product.
 
 The marketing department needs to decide:
